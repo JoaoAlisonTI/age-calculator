@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(0,0%,94%);
+  padding: 1rem;
+  font-family: "Poppins";
+}
+main {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 3rem;
+  padding: 1.5rem 1.5rem 4rem 1.5rem;
+  border-radius: 20px 20px 80px 20px;
+  background-color: white;
+}
+.container-input {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.div-input {
+  display: flex;
+  flex-direction: column;
+  margin: 0.4rem;
+  font-weight: 700;
+}
+.div-input label {
+  color: hsl(0, 1%, 44%);
+  font-size: 13px;
+  font-weight: bold;
+}
+.div-input input {
+  margin-top: 4px;
+  width: 86px;
+  height: 60px;
+  outline: none;
+  border-style: none;
+  border: 1px solid hsl(0, 0%, 86%);
+  border-radius: 8px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+.div-input input:hover{
+  border-color: hsl(259, 100%, 65%);
+}
+.div-button {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  border-top: 2px solid hsl(0, 0%, 86%);
+}
+button {
+  position: absolute;
+  top: -30px; /* Ajuste conforme necessário para a posição desejada */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+  border: none;
+  background-color: hsl(0, 0%, 8%);
+  border-radius: 50%;
+}
+button:hover {
+  background-color: hsl(259, 100%, 65%);
+}
+.container-result {
+  margin-top: 54px;
+}
+.div-result {
+  height: 54px;
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 800;
+  font-style: italic;
+}
+span {
+  margin-right: 8px;
+  color: hsl(259, 100%, 65%);
+}
+footer {
+  margin-top: 20px;
+}
